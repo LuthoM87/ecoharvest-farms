@@ -26,6 +26,20 @@ EcoHarvest Farms is a website for an organic farming business based in South Afr
 ## Contact
 For any inquiries or contributions, feel free to contact the project owner.
 
+## References
+- Duckett, J., 2011. HTML and CSS: Design and Build Websites. Hoboken: Wiley .
+- Frick, T., 2020. Sustainable Web Design. [Online] 
+  Available at: https://sustainablewebdesign.org/
+  [Accessed 12 March 2025].
+- Krug, S., 2014. Don’t Make Me Think: A Common Sense Approach to Web Usability. Indianapolis: New Riders Publishing.
+- MDN Web Docs, 2023. [Online] 
+  Available at: https://developer.mozilla.org/en-US/docs/Web
+  [Accessed 12 March 2025].
+- W3Schools, 2023. HTML, CSS, and JavaScript tutorials. [Online] 
+  Available at: https://www.w3schools.com/
+  [Accessed 12 March 2025].
+- Weinman, L., 2003. Designing Web Graphics. 4th ed. Indianapolis: New Riders Pub.
+
 ## Repository
 
 This is a simple HTML website I created. You can check out the repository [here](https://github.com/LuthoM87/ecoharvest-farms).
