@@ -25,3 +25,7 @@ EcoHarvest Farms is a website for an organic farming business based in South Afr
 
 ## Contact
 For any inquiries or contributions, feel free to contact the project owner.
+
+## Repository
+
+This is a simple HTML website I created. You can check out the repository [here](https://github.com/your-username/your-repository).
