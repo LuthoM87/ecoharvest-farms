@@ -1,5 +1,13 @@
 # EcoHarvest Farms
 
+**Student Name:** Luxolo Lutho Mafu
+
+**Student Number:** ST10433106
+
+**Course:** Bachelor of IT in Business Systems
+
+**Institution:** Rosebank College
+
 ## Overview
 EcoHarvest Farms is a website for an organic farming business based in South Africa. The website showcases the farm's sustainable practices, products, and community involvement. It includes multiple pages such as Home, About Us, Shop, Sustainability, and Contact Us.
 
@@ -9,6 +17,31 @@ EcoHarvest Farms is a website for an organic farming business based in South Afr
 - **Contact**: Contact details and a form to reach out.
 - **Shop**: A section showcasing products or services.
 - **Sustainability**: Details about sustainability efforts.
+
+## Website Sitemap
+**Home**
+- Hero section with call-to-action
+- Featured products preview
+- Upcoming events banner
+
+**About Us**
+- Farm history and mission
+- Team member profiles
+- Photo gallery
+
+**Shop**
+- Product categories
+- Individual product listings
+- Shopping cart integration
+
+**Sustainability**
+- Eco-friendly farming practices
+- Community initiatives
+- Educational resources
+
+**Contact**
+- Contact form
+- Business hours
 
 ## Installation & Usage
 1. Download or clone the repository.
@@ -25,6 +58,8 @@ EcoHarvest Farms is a website for an organic farming business based in South Afr
 
 ## Contact
 For any inquiries or contributions, feel free to contact the project owner.
+
+**Email**: st10433106@rcconnect.edu.za
 
 ## References
 - Duckett, J., 2011. HTML and CSS: Design and Build Websites. Hoboken: Wiley .
