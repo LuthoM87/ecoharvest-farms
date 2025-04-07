@@ -9,42 +9,42 @@
 <body>
     <!-- Header Section -->
     <header>
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="homepage.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="about us.html">About Us</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="sustainability.html">Sustainability</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Shop Content -->
     <main>
-        <section class="shop">
-            <h2>Shop Our Products</h2>
+        <article class="shop" aria-labelledby="shop-heading">
+            <h2 id="shop-heading">Shop Our Products</h2>
             <div class="product-grid">
-                <div class="product">
+                <article class="product">
                     <h3>Organic Tomatoes</h3>
                     <p>Freshly harvested organic tomatoes, grown without pesticides.</p>
                     <p class="price">ZAR 25/kg</p>
-                    <button>Add to Cart</button>
-                </div>
-                <div class="product">
+                    <button aria-label="Add Organic Tomatoes to cart">Add to Cart</button>
+                </article>
+                <article class="product">
                     <h3>Organic Carrots</h3>
                     <p>Sweet and crunchy organic carrots, perfect for salads and snacks.</p>
                     <p class="price">ZAR 20/kg</p>
-                    <button>Add to Cart</button>
-                </div>
-                <div class="product">
+                    <button aria-label="Add Organic Carrots to cart">Add to Cart</button>
+                </article>
+                <article class="product">
                     <h3>Organic Lettuce</h3>
                     <p>Crisp and fresh organic lettuce, ideal for salads and sandwiches.</p>
                     <p class="price">ZAR 15/kg</p>
-                    <button>Add to Cart</button>
-                </div>
+                    <button aria-label="Add Organic Lettuce to cart">Add to Cart</button>
+                </article>
             </div>
-        </section>
+        </article>
     </main>
 
     <!-- Footer Section -->
