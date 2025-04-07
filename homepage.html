@@ -9,53 +9,53 @@
 <body>
     <!-- Header Section -->
     <header>
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="homepage.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="about us.html">About Us</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="sustainability.html">Sustainability</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Hero Section -->
     <main>
-        <section class="hero">
-            <h1>Welcome to EcoHarvest Farms</h1>
+        <section class="hero" aria-labelledby="main-heading">
+            <h1 id="main-heading">Welcome to EcoHarvest Farms</h1>
             <p>Fresh, organic produce for a healthier planet.</p>
             <a href="shop.html" class="cta-button">Shop Now</a>
         </section>
 
-        <!-- Featured Products -->
-        <section class="featured-products">
-            <h2>Featured Products</h2>
+         <!-- Featured Products -->
+        <article class="featured-products" aria-labelledby="products-heading">
+            <h2 id="products-heading">Featured Products</h2>
             <div class="product-grid">
-                <div class="product">
+                <article class="product">
                     <h3>Organic Tomatoes</h3>
                     <p>Freshly harvested organic tomatoes, grown without pesticides.</p>
                     <p class="price">ZAR 25/kg</p>
                     <a href="shop.html" class="cta-button">Buy Now</a>
-                </div>
-                <div class="product">
+                </article>
+                <article class="product">
                     <h3>Organic Carrots</h3>
                     <p>Sweet and crunchy organic carrots, perfect for salads and snacks.</p>
                     <p class="price">ZAR 20/kg</p>
                     <a href="shop.html" class="cta-button">Buy Now</a>
-                </div>
+                </article>
             </div>
-        </section>
+        </article>
 
-        <!-- Upcoming Events -->
-        <section class="events">
-            <h2>Upcoming Events</h2>
-            <div class="event">
+         <!-- Upcoming Events -->
+        <article class="events" aria-labelledby="events-heading">
+            <h2 id="events-heading">Upcoming Events</h2>
+            <section class="event">
                 <h3>Tree Planting Day</h3>
                 <p>Join us on <strong>25th June 2025</strong> for a community tree-planting event. Help us make the planet greener!</p>
                 <a href="sustainability.html" class="cta-button">Learn More</a>
-            </div>
-        </section>
+            </section>
+        </article>
     </main>
 
     <!-- Footer Section -->
