@@ -7,48 +7,59 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Header Section -->
+     <!-- Header Section -->
     <header>
-        <nav>
+        <nav aria-label="Main navigation">
             <ul>
                 <li><a href="homepage.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <li><a href="about us.html">About Us</a></li>
                 <li><a href="shop.html">Shop</a></li>
                 <li><a href="sustainability.html">Sustainability</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Contact Content -->
     <main>
-        <section class="contact">
-            <h2>Contact Us</h2>
-            <p>We’d love to hear from you! Reach out to us for any inquiries or feedback.</p>
-            <div class="contact-info">
-                <div class="address">
-                    <h3>Visit Us</h3>
-                    <p>18 Valero Road<br>Gqeberha, South Africa</p>
-                </div>
-                <div class="phone">
-                    <h3>Call Us</h3>
-                    <p>+27 86 345 6789</p>
-                </div>
-                <div class="email">
-                    <h3>Email Us</h3>
-                    <p>info@ecoharvestfarms.co.za</p>
-                </div>
-            </div>
-            <form action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
+        <article class="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <p>We'd love to hear from you! Reach out to us for any inquiries or feedback.</p>
+            
+            <section class="contact-info" aria-labelledby="info-heading">
+                <h3 id="info-heading" class="visually-hidden">Contact Information</h3>
+                <address>
+                    <div class="address">
+                        <h4>Visit Us</h4>
+                        <p>18 Valero Road<br>Stellenbosch, South Africa</p>
+                    </div>
+                    <div class="phone">
+                        <h4>Call Us</h4>
+                        <p><a href="tel:+27863456789">+27 86 345 6789</a></p>
+                    </div>
+                    <div class="email">
+                        <h4>Email Us</h4>
+                        <p><a href="mailto:info@ecoharvestfarms.co.za">info@ecoharvestfarms.co.za</a></p>
+                    </div>
+                </address>
+            </section>
+            
+            <section aria-labelledby="form-heading">
+                <h3 id="form-heading">Send Us a Message</h3>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </article>
     </main>
 
     <!-- Footer Section -->
